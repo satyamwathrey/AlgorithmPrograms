@@ -29,30 +29,6 @@ namespace AlgorithmPrograms
                         Permutation.Permutate(str, 0, n - 1);
                         break;
 
-                    case 2:
-                        InsertionSort insertionSort = new InsertionSort();
-                        insertionSort.Insertion_Sort();
-                        break;
-
-                    case 3:
-                        BubbleSort sort = new BubbleSort();
-                        sort.Bubble_Sort();
-                        break;
-
-                    case 4:
-                        MergeSort mergeSort = new MergeSort();
-                        mergeSort.Merge_sort();
-                        break;
-
-                    case 5:
-                        Anagram anagram = new Anagram();
-                        anagram.Detect_Anagram();
-                        break;
-
-                    case 7:
-                        PrimeNumbers prime = new PrimeNumbers();
-                        prime.Check_Prime();
-                        break;
 
                     default:
                         Console.WriteLine("-------Enter the valid option---");
