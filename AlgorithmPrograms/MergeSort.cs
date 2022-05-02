@@ -8,7 +8,7 @@ namespace AlgorithmPrograms
 {
     class MergeSort
     {
-        ublic void Merge_sort()
+        public void Merge_sort()
         {
             Console.WriteLine("enter size of array:");
             int size = Convert.ToInt32(Console.ReadLine());
